@@ -26,6 +26,7 @@ jobs:
           ACTION_DEPLOY_KEY: ${{ secrets.PAGE_TOKEN }}
         run: |
           npm install hexo-cli -g
+          npm install hexo-deployer-git --save
           npm install
           hexo clean
           hexo deploy
