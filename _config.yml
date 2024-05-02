@@ -101,4 +101,6 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  - type: git
+    repository:
+      github: https://{$ACTION_DEPLOY_KEY}@github.com/Bliod-Cook/bliod-cook.github.io.git,main
