@@ -103,5 +103,5 @@ theme: butterfly
 deploy:
   - type: git
     repo: https://github.com/Bliod-Cook/bliod-cook.github.io
-    branch: main
-    token: $ACTION_DEPLOY_KEY
+    branch: [main]
+    token: [$ACTION_DEPLOY_KEY]
